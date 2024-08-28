@@ -1,2 +1,8 @@
-# BrightBlog-Arbaaz-2024
- Website code for the 2024 Bright Network Couch to Coder Course.
+# BrightBlog
+
+| Author | Details |
+|:--- |:--- |
+| Name: | Arbaaz Patwari |
+| Programme: | Bright Network |
+| Started: | August 2024 |
+
