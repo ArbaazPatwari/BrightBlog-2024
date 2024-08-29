@@ -1,4 +1,4 @@
-# BrightBlog
+# BrightBlog Site
 
 | Author | Details |
 |:--- |:--- |
