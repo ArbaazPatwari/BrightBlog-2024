@@ -7,6 +7,14 @@
 
 body {
   background-color: hsl(36, 35%, 84%);
-  font-family: 'Aptos';
+  font-family: 'Aptos', Helvetica, Arial, sans-serif;
+}
+
+body > header {
+  background-color: orange;
+}
+
+body > footer {
+  background-color: orange;
 }
 
