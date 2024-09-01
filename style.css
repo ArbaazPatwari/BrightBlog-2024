@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Aptos';
+  src: url('assets/aptos-font/aptos.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(36, 35%, 84%);
+  font-family: 'Aptos';
+}
+
