@@ -8,13 +8,51 @@
 body {
   background-color: hsl(36, 35%, 84%);
   font-family: 'Aptos', Helvetica, Arial, sans-serif;
+  margin: 0px;
 }
 
 body > header {
   background-color: orange;
+  color: white;
+}
+
+body > header > nav > ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbutton {
+  color: white;
+  text-decoration: none;
+}
+
+body > main > article {
+  width: 70%;
+  margin: auto;
+}
+
+form {
+  text-align: center;  
+}
+
+h2 {
+  text-align: center;
 }
 
 body > footer {
   background-color: orange;
 }
 
+#logo {
+  margin: 0px;
+  padding: 8px;
+  font-family: 'Fredoka One', 'Aptos';
+}
+
+ul {
+  margin: 0px;
+}
+
+img {
+  border-radius: 5%;
+}
