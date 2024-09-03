@@ -9,11 +9,13 @@ body {
   background-color: hsl(36, 35%, 84%);
   font-family: 'Aptos', Helvetica, Arial, sans-serif;
   margin: 0px;
+  font-size: 1.2rem;
 }
 
 body > header {
   background-color: orange;
   color: white;
+  
 }
 
 body > header > nav > ul {
@@ -47,6 +49,10 @@ body > footer {
   margin: 0px;
   padding: 8px;
   font-family: 'Fredoka One', 'Aptos';
+  box-shadow: 6px 6px 1px 2px darkorange;
+  width: 14rem;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px black;
 }
 
 ul {
