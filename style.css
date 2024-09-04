@@ -14,8 +14,19 @@ body {
 
 body > header {
   background-color: orange;
-  color: white;
-  
+  display: flex;
+  height: 156px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#nav-ul {
+  display: flex;
+}
+
+#nav-ul > li {
+  padding: 8px;
+  margin: 16px;
 }
 
 body > header > nav > ul {
@@ -26,11 +37,18 @@ body > header > nav > ul {
 .navbutton {
   color: white;
   text-decoration: none;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 6px;
 }
 
-body > main > article {
+body > main article {
   width: 70%;
   margin: auto;
+}
+
+#main-content {
+  display: flex;
 }
 
 form {
@@ -43,15 +61,18 @@ h2 {
 
 body > footer {
   background-color: orange;
+  display: flex;
 }
 
 #logo {
   margin: 0px;
-  padding: 8px;
+  padding: 2px;
   font-family: 'Fredoka One', 'Aptos';
+  color: white;
   box-shadow: 6px 6px 1px 2px darkorange;
   width: 14rem;
-  border-radius: 10px;
+  height: 8.4rem;
+  border-radius: 6px;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -61,4 +82,18 @@ ul {
 
 img {
   border-radius: 5%;
+}
+
+#footer-ul {
+  display: flex;
+}
+
+#footer-ul > div > li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+#footer-ul > div > li > a {
+  text-decoration: none;
+  color: white;
 }
