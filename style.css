@@ -49,6 +49,11 @@ body > main article {
 
 #main-content {
   display: flex;
+  justify-content: space-around;
+}
+
+#main-content > div {
+  width: 70%;
 }
 
 form {
