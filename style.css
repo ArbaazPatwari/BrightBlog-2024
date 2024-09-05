@@ -56,6 +56,10 @@ body > main article {
   width: 70%;
 }
 
+#main-content > li {
+  text-decoration: underline;
+}
+
 form {
   text-align: center;  
 }
