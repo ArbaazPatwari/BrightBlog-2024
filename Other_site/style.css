@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+}
+
+header {
+  padding: 16px;
+  background-color: orange;
+  color: #ffffff;
+  text-align: center;
+  grid-area: header;
+}
+
+#menu {
+  padding: 32px;
+  background-color: darkgoldenrod;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+#main-content {
+  padding: 32px;
+  grid-area: main;
+}
+
+footer {
+  padding: 16px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  grid-area: footer;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "menu main"
+  "footer footer"
+  ;
+  grid-template-columns: 1fr 6fr;
+}
